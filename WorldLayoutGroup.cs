@@ -20,10 +20,9 @@ public class WorldLayoutGroup : MonoBehaviour
 
     private bool layoutQueued;
 
-
     private void OnEnable()
     {
-        RequestLayoutRebuild();
+        RequestLayoutRebuild();  
     }
 
     private void OnValidate()
@@ -88,9 +87,8 @@ public class WorldLayoutGroup : MonoBehaviour
             case LayoutDirection.Left: return Vector3.left;
             case LayoutDirection.Up: return Vector3.up;
             case LayoutDirection.Down: return Vector3.down;
+            default: return Vector3.right;
         }
-
-        return Vector3.right;
     }
 }
 
