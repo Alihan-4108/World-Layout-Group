@@ -17,7 +17,7 @@ UI `LayoutGroup`, but designed for **world (non-UI) objects**.
 
 ---
 
-## 💡 Editor Usage Recommendation!!
+## 💡 Editor Usage Recommendation
 
 `WorldLayoutGroup` is designed to be used as an **editor tool**.
 
