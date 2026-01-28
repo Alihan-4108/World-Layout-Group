@@ -1,4 +1,6 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+
+using UnityEditor;
 using UnityEngine;
 
 public static class WorldLayoutGroupHierarchy
@@ -20,7 +22,7 @@ public static class WorldLayoutGroupHierarchy
             return;
 
         GameObject parent = new GameObject("New Parent");
-       
+
         Undo.RegisterCreatedObjectUndo(parent, "Create Parent");
         Undo.AddComponent<WorldLayoutGroup>(parent);
 
@@ -43,5 +45,6 @@ public static class WorldLayoutGroupHierarchy
     {
         return Selection.gameObjects != null && Selection.gameObjects.Length > 0;
     }
-
 }
+
+#endif
