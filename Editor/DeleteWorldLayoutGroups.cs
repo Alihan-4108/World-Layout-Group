@@ -19,7 +19,7 @@ public class DeleteWorldLayoutGroups : IProcessSceneWithReport
 
             foreach (var group  in groups)
             {
-                Object.DestroyImmediate(group, true);
+                Object.DestroyImmediate(group);
                 removedCount++;
             }
         }
