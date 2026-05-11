@@ -1,6 +1,6 @@
 {
     "name": "com.alihan-4108.world-layout-group",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "displayName": "World Layout Group",
     "description": "WorldLayoutGroup is a lightweight, editor-only layout component for Unity. It automatically arranges child GameObjects in the scene, similar to Unity’s UI LayoutGroup, but designed for world (non-UI) objects.",
     "unity": "2022.3",
