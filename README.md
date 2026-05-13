@@ -19,6 +19,10 @@ UI `LayoutGroup`, but designed for **world (non-UI) objects**.
 https://github.com/Alihan-4108/World-Layout-Group.git
 ```
 
+### Via .unitypackage
+
+You can also download the `.unitypackage` file directly from the [Releases](https://github.com/Alihan-4108/World-Layout-Group/releases) page and import it into your project via `Assets → Import Package → Custom Package...`.
+
 ---
 
 ## Basic Setup
