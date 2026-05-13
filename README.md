@@ -1,8 +1,23 @@
-## WorldLayoutGroup
+# WorldLayoutGroup
 
 WorldLayoutGroup is a lightweight, **editor-only** layout component for Unity.  
-It automatically arranges child GameObjects in the scene, similar to Unity’s  
+It automatically arranges child GameObjects in the scene, similar to Unity's  
 UI `LayoutGroup`, but designed for **world (non-UI) objects**.
+
+---
+
+## Installation
+
+### Via Unity Package Manager
+
+1. Open **Package Manager** (`Window → Package Manager`)
+2. Click the **+** button in the top-left corner
+3. Select **"Add package from git URL..."**
+4. Paste the following URL and click **Add**:
+
+```
+https://github.com/Alihan-4108/World-Layout-Group.git
+```
 
 ---
 
@@ -10,7 +25,7 @@ UI `LayoutGroup`, but designed for **world (non-UI) objects**.
 
 1. Select one or more GameObjects in the **Hierarchy**.
 2. Right-click and choose:  
-   ** → Create World Layout Group**
+   **→ Create World Layout Group**
 3. A new parent GameObject is created:
    - Selected objects are moved under this parent
    - `WorldLayoutGroup` is automatically added
@@ -34,6 +49,7 @@ Defines the direction in which child objects are laid out:
 
 Controls the distance between each child object.
 
+---
 
 ## ⚠️ Important Notes
 
