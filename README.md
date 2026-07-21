@@ -6,6 +6,8 @@ UI `LayoutGroup`, but designed for **world (non-UI) objects**.
 
 ---
 
+https://github.com/user-attachments/assets/a0176da9-bee9-47c7-92be-80b5097a6a19
+
 ## Installation
 
 ### Via Unity Package Manager
